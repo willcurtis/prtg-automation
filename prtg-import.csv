@@ -1,0 +1,13 @@
+DeviceName,IP,GroupId,GroupName,ParentGroupId
+a-edge-fw-01,10.194.10.100,,A-Firewalls,2398
+b-branch-ap-17,10.194.10.101,,A-Branch-APs,2398
+c-core-sw-01,10.194.10.102,,B-Switches,2398
+d-edge-fw-02,10.194.10.103,,B-Firewalls,2398
+e-branch-ap-18,10.194.10.104,,A-Branch-APs,2398
+f-core-sw-02,10.194.10.105,,A-Switches,2398
+g-cp-edge-fw-01,10.194.10.100,,A-Firewalls,2398
+h-sp-branch-ap-17,10.194.10.101,,A-Branch-APs,2398
+i-lp-core-sw-01,10.194.10.102,,Switches,2398
+j-up-edge-fw-02,10.194.10.103,,B-Firewalls,2398
+k-branch-ap-18,10.194.10.104,,B-Branch-APs,2398
+l-core-sw-02,10.194.10.105,,B-Switches,2398
