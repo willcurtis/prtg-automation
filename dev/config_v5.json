@@ -1,0 +1,37 @@
+{
+  "prtg": {
+    "baseUrl": "https://prtg.example.com:1616",
+    "apiKey": "",
+    "classicBaseUrl": "https://prtg.example.com:8443/",
+    "classicUser": "",
+    "classicPasshash": "",
+    "skipCertCheck": true
+  },
+  "logging": {
+    "logPath": "C:\\PRTG\\logs",
+    "verbose": true,
+    "jsonSummaryPath": "C:\\PRTG\\logs\\run-summary.json"
+  },
+  "defaults": {
+    "parentGroupId": "2372",
+    "sensorType": "ping",
+    "scanAfterCreate": true
+  },
+  "csv": {
+    "path": ".\\prtg-import.csv",
+    "columns": {
+      "deviceName": "DeviceName",
+      "ip": "IP",
+      "groupId": "GroupId",
+      "groupName": "GroupName",
+      "parentGroupId": "ParentGroupId",
+      "groupPath": "GroupPath"
+    }
+  },
+  "behavior": {
+    "whatIf": false,
+    "parallel": false,
+    "maxConcurrency": 6,
+    "retry": { "attempts": 2, "backoffSeconds": 2 }
+  }
+}

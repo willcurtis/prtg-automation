@@ -24,3 +24,11 @@ core-sw-02,10.194.10.102,,,2398,Branch Offices/Asia/Shanghai/Switches
 edge-fw-01,10.194.10.100,,,2398,Branch Offices/Asia/Shanghai/Firewalls
 branch-ap-19,10.194.10.101,,,2398,Branch Offices/Asia/Shanghai/Branch-APs
 core-sw-01,10.194.10.102,,,2398,Branch Offices/Asia/Shanghai/Switches
+core-sw-02,10.194.10.102,,,2398,Primary Data Centre/Asia/Australia/Switches
+edge-fw-01,10.194.10.100,,,2398,Primary Data Centre/Asia/Australia/Firewalls
+branch-ap-19,10.194.10.101,,,2398,Primary Data Centre/Asia/Australia/Branch-APs
+core-sw-01,10.194.10.102,,,2398,Primary Data Centre/Asia/Australia/Switches
+core-sw-02,10.194.10.102,,,2398,Secondary Data Centre/Europe/Frankfurt/Switches
+edge-fw-01,10.194.10.100,,,2398,Secondary Data Centre/Europe/Frankfurt/Firewalls
+branch-ap-19,10.194.10.101,,,2398,Secondary Data Centre/Europe/Frankfurt/Branch-APs
+core-sw-01,10.194.10.102,,,2398,Secondary Data Centre/Europe/Frankfurt/Switches
