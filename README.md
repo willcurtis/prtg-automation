@@ -1,4 +1,4 @@
-# PRTG Creation Tool v4 — Nested Groups
+# PRTG Creation Tool — with Nested Groups
 
 This PowerShell script automates creation of **nested groups**, devices, and a default **Ping** sensor in Paessler PRTG.
 It builds on v3 (robust logging + v2/classic fallbacks) and adds **GroupPath** support such as `Region/City/Role`.
@@ -61,7 +61,7 @@ edge-fw-02,10.194.10.103,,Firewalls,2372,
 Run from the folder containing the script and your CSV:
 
 ```powershell
-.\prtg_creation_tool_v4.ps1 `
+.\prtg_creation_tool.ps1 `
   -BaseUrl "https://<prtg-host>:1616" `
   -ApiKey "<YOUR_API_KEY>" `
   -CsvPath ".\prtg-import.csv" `
@@ -79,14 +79,14 @@ Run from the folder containing the script and your CSV:
 Each run starts a transcript and logs to:
 
 ```
-<ScriptFolder>\logs\prtg_creation_tool_v4_YYYYMMDD_HHMMSS.log
+<ScriptFolder>\logs\prtg_creation_tool_YYYYMMDD_HHMMSS.log
 ```
 
 Example snippet:
 
 ```text
 PowerShell transcript start
-Logging to: C:\PRTG\logs\prtg_creation_tool_v4_20250822_101504.log
+Logging to: C:\PRTG\logs\prtg_creation_tool_20250822_101504.log
 VERBOSE: Normalized BaseUrl => https://prtg-host:1616/api/v2
 VERBOSE: Path segment 'EMEA' => group id 2401
 VERBOSE: Path segment 'London' => group id 2402
