@@ -1,4 +1,4 @@
-# PRTG Creation Tool v3
+# PRTG Creation Tool
 
 This PowerShell script automates creation of groups, devices, and Ping sensors in **Paessler PRTG** using the API.  
 Version **v3** introduces **automatic logging** — each run creates a timestamped transcript log in a `logs/` folder next to the script.
@@ -11,7 +11,7 @@ Version **v3** introduces **automatic logging** — each run creates a timestamp
 - Avoids duplicate groups by reusing existing ones.
 - Creates devices in groups.
 - Ensures each device has a Ping sensor (uses API v2 first, falls back to classic API).
-- Logs all verbose output to a timestamped log file (`logs/prtg_creation_tool_v3_YYYYMMDD_HHMMSS.log`).
+- Logs all verbose output to a timestamped log file (`logs/prtg_creation_tool_YYYYMMDD_HHMMSS.log`).
 
 ---
 
@@ -43,7 +43,7 @@ core-sw-01,10.194.10.102,,Switches,2372
 Run the script from PowerShell:
 
 ```powershell
-.\prtg_creation_tool_v3.ps1 `
+.\prtg_creation_tool.ps1 `
   -BaseUrl "https://<prtg-host>:1616" `
   -ApiKey "<YOUR_API_KEY>" `
   -CsvPath ".\prtg-import.csv" `
@@ -85,7 +85,7 @@ Run the script from PowerShell:
 Every run writes a transcript log to:
 
 ```
-<ScriptFolder>\logs\prtg_creation_tool_v3_YYYYMMDD_HHMMSS.log
+<ScriptFolder>\logs\prtg_creation_tool_YYYYMMDD_HHMMSS.log
 ```
 
 This includes verbose output and any warnings or errors.  
@@ -96,8 +96,8 @@ This includes verbose output and any warnings or errors.
 **********************
 PowerShell transcript start
 Start time: 20250222 15:43:00
-Script path: C:\PRTG-Automation\prtg_creation_tool_v3.ps1
-Logging to: C:\PRTG-Automation\logs\prtg_creation_tool_v3_20250222_154300.log
+Script path: C:\PRTG-Automation\prtg_creation_tool.ps1
+Logging to: C:\PRTG-Automation\logs\prtg_creation_tool_20250222_154300.log
 **********************
 
 VERBOSE: Normalized BaseUrl => https://prtg-server:1616/api/v2
@@ -117,7 +117,7 @@ PowerShell transcript end
 ## Example Run
 
 ```powershell
-PS C:\PRTG-Automation> .\prtg_creation_tool_v3.ps1 `
+PS C:\PRTG-Automation> .\prtg_creation_tool.ps1 `
     -BaseUrl "https://prtg-server:1616" `
     -ApiKey "********" `
     -CsvPath ".\prtg-import.csv" `
