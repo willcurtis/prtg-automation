@@ -1,34 +1,38 @@
 DeviceName,IP,GroupId,GroupName,ParentGroupId,GroupPath
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/EMEA/London/Firewalls
-branch-ap-17,10.194.10.101,,,2398,Branch Offices/EMEA/London/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/EMEA/London/Switches
-edge-fw-02,10.194.10.100,,,2398,Branch Offices/EMEA/London/Firewalls
-branch-ap-18,10.194.10.101,,,2398,Branch Offices/EMEA/London/Branch-APs
-core-sw-02,10.194.10.102,,,2398,Branch Offices/EMEA/Paris/Switches
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/EMEA/Paris/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Branch Offices/EMEA/Paris/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/EMEA/Paris/Switches
-core-sw-02,10.194.10.102,,,2398,Branch Offices/USA/Chicago/Switches
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/USA/Chicago/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Branch Offices/USA/Chicago/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/USA/Chicago/Switches
-core-sw-02,10.194.10.102,,,2398,Branch Offices/USA/New York/Switches
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/USA/New York/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Branch Offices/USA/New York/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/USA/New York/Switches
-core-sw-02,10.194.10.102,,,2398,Branch Offices/Asia/Tokyo/Switches
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/Asia/Tokyo/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Branch Offices/Asia/Tokyo/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/Asia/Tokyo/Switches
-core-sw-02,10.194.10.102,,,2398,Branch Offices/Asia/Shanghai/Switches
-edge-fw-01,10.194.10.100,,,2398,Branch Offices/Asia/Shanghai/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Branch Offices/Asia/Shanghai/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Branch Offices/Asia/Shanghai/Switches
-core-sw-02,10.194.10.102,,,2398,Primary Data Centre/Asia/Australia/Switches
-edge-fw-01,10.194.10.100,,,2398,Primary Data Centre/Asia/Australia/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Primary Data Centre/Asia/Australia/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Primary Data Centre/Asia/Australia/Switches
-core-sw-02,10.194.10.102,,,2398,Secondary Data Centre/Europe/Frankfurt/Switches
-edge-fw-01,10.194.10.100,,,2398,Secondary Data Centre/Europe/Frankfurt/Firewalls
-branch-ap-19,10.194.10.101,,,2398,Secondary Data Centre/Europe/Frankfurt/Branch-APs
-core-sw-01,10.194.10.102,,,2398,Secondary Data Centre/Europe/Frankfurt/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/EMEA/London/Firewalls
+branch-ap-17,10.194.10.101,,,3510,Branch Offices/EMEA/London/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/EMEA/London/Switches
+edge-fw-02,10.194.10.100,,,3510,Branch Offices/EMEA/London/Firewalls
+branch-ap-18,10.194.10.101,,,3510,Branch Offices/EMEA/London/Branch-APs
+core-sw-02,10.194.10.102,,,3510,Branch Offices/EMEA/Paris/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/EMEA/Paris/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Branch Offices/EMEA/Paris/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/EMEA/Paris/Switches
+core-sw-02,10.194.10.102,,,3510,Branch Offices/USA/Chicago/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/USA/Chicago/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Branch Offices/USA/Chicago/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/USA/Chicago/Switches
+core-sw-02,10.194.10.102,,,3510,Branch Offices/USA/New York/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/USA/New York/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Branch Offices/USA/New York/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/USA/New York/Switches
+core-sw-02,10.194.10.102,,,3510,Branch Offices/Asia/Tokyo/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/Asia/Tokyo/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Branch Offices/Asia/Tokyo/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/Asia/Tokyo/Switches
+core-sw-02,10.194.10.102,,,3510,Branch Offices/Asia/Shanghai/Switches
+edge-fw-01,10.194.10.100,,,3510,Branch Offices/Asia/Shanghai/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Branch Offices/Asia/Shanghai/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Branch Offices/Asia/Shanghai/Switches
+core-sw-02,10.194.10.102,,,3510,Primary Data Centre/Asia/Australia/Switches
+edge-fw-01,10.194.10.100,,,3510,Primary Data Centre/Asia/Australia/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Primary Data Centre/Asia/Australia/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Primary Data Centre/Asia/Australia/Switches
+core-sw-02,10.194.10.102,,,3510,Secondary Data Centre/Europe/Frankfurt/Switches
+edge-fw-01,10.194.10.100,,,3510,Secondary Data Centre/Europe/Frankfurt/Firewalls
+branch-ap-19,10.194.10.101,,,3510,Secondary Data Centre/Europe/Frankfurt/Branch-APs
+core-sw-01,10.194.10.102,,,3510,Secondary Data Centre/Europe/Frankfurt/Switches
+core-fw-01a,10.194.10.26,,,3510,HQ/EMEA/London/Firewalls
+core-fw-01b,10.194.10.24,,,3510,HQ/EMEA/London/Firewalls
+core-fw-02a,10.194.10.26,,,3510,HQ/EMEA/London/VPN/Firewalls
+core-fw-02b,10.194.10.24,,,3510,HQ/EMEA/London/VPN/Firewalls
